@@ -3,10 +3,10 @@
   */
 
 val myList = List(1, 1, 2, 3, 5, 8)
+val palList = List(1, 5, 3, 5, 1)
 // p1 - Find the last element of a list.
 def last(aList: List[Int]): Int = aList.last
 last(myList)
-
 // p2 - Find the last but one element of a list.
 def penultimate(aList: List[Int]): Int = aList.init.last
 penultimate(myList)
@@ -23,7 +23,6 @@ def nthRec(index: Int, aList: List[Int]): Int = (index, aList) match {
 }
 nth(5, myList)
 nthRec(5, myList)
-
 // p4 - Find the number of elements of a list.
 def length(aList: List[Int]): Int = aList.size
 def lengthTailRec(aList: List[Int]): Int = {
@@ -37,7 +36,6 @@ def lengthFold(aList: List[Int]): Int = aList.foldLeft(0){ (count, _) => count +
 length(myList)
 lengthTailRec(myList)
 lengthFold(myList)
-
 // p5 - Reverse a list.
 def reverse(aList: List[Int]): List[Int] = aList.reverse
 def reverseTailRec(aList: List[Int]): List[Int] = {
@@ -51,3 +49,9 @@ def reverseFold(aList: List[Int]): List[Int] = aList.foldLeft(List[Int]()){ case
 reverse(myList)
 reverseTailRec(myList)
 reverseFold(myList)
+
+// p6 - Find out whether a list is a palindrome.
+def isPalindrome(aList: List[Int]): Boolean = aList == aList.reverse
+isPalindrome(palList)
+isPalindrome(myList)
+
