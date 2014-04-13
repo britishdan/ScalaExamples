@@ -97,3 +97,20 @@ def compressTailRec[A](aList: List[A]): List[A] = {
 }
 compress(dupList)
 compressTailRec(dupList)
+
+/**
+  * Arithmetic
+  */
+class S99Int(val start: Int) {
+  import S99Int._
+}
+object S99Int {
+  implicit def int2S99Int(i: Int): S99Int = new S99Int(i)
+  /**
+   * p32 - Determine the greatest common divisor of two positive integer numbers.
+   * Use Euclid's algorithm.
+   */
+  def gcd(n: Int, m: Int): Int = if (m == 0) n else gcd(m, n % m)
+}
+val s99 = S99Int
+s99.gcd(2322, 654)
