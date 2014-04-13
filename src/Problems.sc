@@ -33,5 +33,21 @@ def lengthTailRec(aList: List[Int]): Int = {
   }
   lengthR(0, aList)
 }
+def lengthFold(aList: List[Int]): Int = aList.foldLeft(0){ (count, _) => count + 1 }
 length(myList)
 lengthTailRec(myList)
+lengthFold(myList)
+
+// p5 - Reverse a list.
+def reverse(aList: List[Int]): List[Int] = aList.reverse
+def reverseTailRec(aList: List[Int]): List[Int] = {
+  def reverseR(result: List[Int], cur: List[Int]): List[Int] = cur match {
+    case Nil => result
+    case h :: tail => reverseR(h :: result, tail)
+  }
+  reverseR(List.empty, aList)
+}
+def reverseFold(aList: List[Int]): List[Int] = aList.foldLeft(List[Int]()){ case (newList, cur) => cur :: newList }
+reverse(myList)
+reverseTailRec(myList)
+reverseFold(myList)
