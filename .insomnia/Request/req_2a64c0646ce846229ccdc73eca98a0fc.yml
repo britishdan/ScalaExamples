@@ -1,0 +1,85 @@
+_id: req_2a64c0646ce846229ccdc73eca98a0fc
+type: Request
+parentId: fld_d6573fd5345f48da9af750fc8ff7b8e2
+modified: 1658237864063
+created: 1658223604736
+url: https://mgmt.demo.anchor.sh/relationship
+name: Create Relationship
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"buyerEmail": "testdeliverable@email.com",
+    	"buyerName": {
+    		"first": "test deliverable",
+    		"last": "test deliverable"
+    	},
+    	"buyerPhone": null,
+    	"customerName": "test deliverable",
+    	"title": "",
+    	"services": [
+    		{
+    			"id": "service-TC39PzR-J3LsBY3cATUO316F",
+    			"name": "deliverables",
+    			"description": "",
+    			"billedUpon": {
+    				"type": "oneTimeDelivery",
+    				"ongoing": null,
+    				"repeatableManual": null
+    			},
+    			"cost": {
+    				"pricingType": {
+    					"type": "fixed",
+    					"fixed": {
+    						"price": 400
+    					},
+    					"variable": null
+    				},
+    				"discount": null
+    			}
+    		}
+    	],
+    	"legalTerms": {
+    		"type": "libraryLegalTermsId",
+    		"libraryLegalTermsId": "tos-T0Mz5za-iG614EbOMYpF442o"
+    	},
+    	"netTerms": {
+    		"type": "immediate",
+    		"days": null
+    	},
+    	"effectiveDate": null,
+    	"coverLetter": "We’ve created an agreement in Anchor, a billing platform that we use to automate the payment process so both of us can save time and effort.\n\nIt includes a detailed description of the services we agreed on, the price, and the billing terms.\nPlease review and approve the agreement.",
+    	"reimburseExpenses": false,
+    	"extraClause": "",
+    	"requirePaymentMethod": true,
+    	"allowManualPayments": false,
+    	"coverCreditCardFees": false,
+    	"draftIdToDiscard": "draft-TBqPzwP-p14wfS2qiEfZQ9K1",
+    	"isExistingCustomer": false,
+    	"customNotificationText": "As discussed, the agreement is ready for your review and approval.\n\nPlease click the link below to review the agreement through Anchor, our billing platform.\n\nPaying with Anchor is secure, hassle-free, and fully controlled by you. Our agreement, services, pricing, and discounts can all be viewed in one centralized place, so you have full visibility at all times.",
+    	"billingDayOfMonth": {
+    		"type": "lastDayOfMonth",
+    		"dayOfMonth": null
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6cdf5b4c3faa49a1bea16103e86726da
+  - id: pair_fe58f12517bf43db9de6864828943f46
+    name: Cookie
+    value: AuthToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Qtc2lnbnVwLW5vdGlmQGVtYWlsLmNvbSIsImJ1c2luZXNzSWQiOiJidXNpbmVzcy1UME16NXpaLXpDZHhDUklWc2syVWZuQm4iLCJzZXJ2aWNlQWNjb3VudCI6bnVsbCwiZmlyc3ROYW1lIjoidGVzdC1zaWdudXAtbm90aWYiLCJsYXN0TmFtZSI6InRlc3Qtc2lnbnVwLW5vdGlmIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJpc0F1dGhlbnRpY2F0ZWQiOnRydWUsImlzU3VwZXJBZG1pbiI6ZmFsc2UsInNldFBhc3N3b3JkT25seSI6bnVsbCwiaW50ZXJjb21Vc2VySGFzaCI6IjliYzk5MTY1NTdiOTlkZWU4MjlkMmQ3YmFlZDU3Y2RlN2Y0NDk0ZGM3ZTQwOGRkNDA5Y2NjYjI2YzJkNDU3MDIiLCJpYXQiOjE2NTU3OTE2Njd9;
+      AuthTokenSignature=weUkWVHqkhBI6-cz_FG1WM3xFkjO3V5S4PXfOQnr-To;
+    description: ""
+authentication: {}
+metaSortKey: -1658223713765
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

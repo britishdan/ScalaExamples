@@ -1,0 +1,29 @@
+_id: req_47c466afc41b4d93be8b63569ae9e2f7
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658301008795
+created: 1658235947522
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD/upload-destination
+name: Get Upload Deliverable URL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_e0bd32ea9ccd42e38a5d25da37e92ce8
+    name: Cookie
+    value: "{{ _.vendorToken }}"
+    description: ""
+  - id: pair_3cf9898c2be64d3f8b8f1e14ab5a1020
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1658235947522
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

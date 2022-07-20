@@ -1,0 +1,34 @@
+_id: req_bc54fea2e1f442a7af615814a2c229a6
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658244291273
+created: 1658242904746
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD
+name: Update Bill Command Quantity
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"note":"hello",
+    	"quantity": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ffae151e24114e7ca4a52fdced4cd89c
+  - id: pair_346e830f674447d8882544b6bfbb2005
+    name: Cookie
+    value: "{{ _.vendorToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658235947422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

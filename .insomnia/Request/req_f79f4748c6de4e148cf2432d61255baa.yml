@@ -1,0 +1,25 @@
+_id: req_f79f4748c6de4e148cf2432d61255baa
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658300099641
+created: 1658299846554
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD/deliverables
+name: Get Download Deliverables URL
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_50723ee94dda4ea8b238e111644c507e
+    name: Cookie
+    value: "{{ _.buyerToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658235947222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_21f3913de3e94d34b1c3097af167a48c
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658244365185
+created: 1658243426341
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD/add-deliverable
+name: Add Deliverable
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fileId": "del-TC3XqOQ-wR8m6Xl22CLpll91",
+    	"filename": "test pdf"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_266c97c4da6941a78424bbecacfba0c6
+  - id: pair_a10fd37ab4214b5c9fa022966fa51e53
+    name: Cookie
+    value: "{{ _.vendorToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658235947372
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

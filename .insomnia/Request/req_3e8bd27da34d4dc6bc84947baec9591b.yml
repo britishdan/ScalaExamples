@@ -1,0 +1,30 @@
+_id: req_3e8bd27da34d4dc6bc84947baec9591b
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658298912760
+created: 1658243949818
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD/ask-for-client-approval
+name: Deliverable Ask For Client Approval
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_838c49dd614d4aa090c2742005d26fbd
+  - id: pair_68e24bc1a517417c9a3794c377fcf523
+    name: Cookie
+    value: "{{ _.vendorToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658235947322
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

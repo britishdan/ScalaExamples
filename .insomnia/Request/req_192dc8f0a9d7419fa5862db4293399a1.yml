@@ -1,0 +1,26 @@
+_id: req_192dc8f0a9d7419fa5862db4293399a1
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658243720543
+created: 1658236182348
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command
+name: Get Service Bill Commands
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f06556c77d7244d080447aff20c0a058
+    name: Cookie
+    value: AuthToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Qtc2lnbnVwLW5vdGlmQGVtYWlsLmNvbSIsImJ1c2luZXNzSWQiOiJidXNpbmVzcy1UME16NXpaLXpDZHhDUklWc2syVWZuQm4iLCJzZXJ2aWNlQWNjb3VudCI6bnVsbCwiZmlyc3ROYW1lIjoidGVzdC1zaWdudXAtbm90aWYiLCJsYXN0TmFtZSI6InRlc3Qtc2lnbnVwLW5vdGlmIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJpc0F1dGhlbnRpY2F0ZWQiOnRydWUsImlzU3VwZXJBZG1pbiI6ZmFsc2UsInNldFBhc3N3b3JkT25seSI6bnVsbCwiaW50ZXJjb21Vc2VySGFzaCI6IjliYzk5MTY1NTdiOTlkZWU4MjlkMmQ3YmFlZDU3Y2RlN2Y0NDk0ZGM3ZTQwOGRkNDA5Y2NjYjI2YzJkNDU3MDIiLCJpYXQiOjE2NTU3OTE2Njd9;
+      AuthTokenSignature=weUkWVHqkhBI6-cz_FG1WM3xFkjO3V5S4PXfOQnr-To;
+    description: ""
+authentication: {}
+metaSortKey: -1658235947572
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

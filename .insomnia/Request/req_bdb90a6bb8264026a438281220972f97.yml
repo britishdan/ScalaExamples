@@ -1,0 +1,65 @@
+_id: req_bdb90a6bb8264026a438281220972f97
+type: Request
+parentId: fld_d6573fd5345f48da9af750fc8ff7b8e2
+modified: 1658237865199
+created: 1658223713715
+url: https://mgmt.demo.anchor.sh/business/business-T0Mz5zZ-zCdxCRIVsk2UfnBn/service-template/create
+name: Create Service Template
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "dddddd",
+    	"description": "",
+    	"cost": {
+    		"pricingType": {
+    			"type": "fixed",
+    			"fixed": {
+    				"price": 400
+    			}
+    		},
+    		"discount": null
+    	},
+    	"billedUpon": {
+    		"type": "repeatableManual",
+    		"repeatableManual": {
+    			"recurrence": {
+    				"period": {
+    					"type": "monthly",
+    					"monthly": {
+    						"dayOfMonth": {
+    							"type": "lastDayOfMonth"
+    						}
+    					}
+    				},
+    				"lastInvoicedOn": null,
+    				"lastBilledTermEndedOn": null
+    			}
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_47ca7223cd1146c4aa058d65ea262aaa
+  - id: pair_95af25e0c10149a0982f5c4573223982
+    name: Cookie
+    value: AuthToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Qtc2lnbnVwLW5vdGlmQGVtYWlsLmNvbSIsImJ1c2luZXNzSWQiOiJidXNpbmVzcy1UME16NXpaLXpDZHhDUklWc2syVWZuQm4iLCJzZXJ2aWNlQWNjb3VudCI6bnVsbCwiZmlyc3ROYW1lIjoidGVzdC1zaWdudXAtbm90aWYiLCJsYXN0TmFtZSI6InRlc3Qtc2lnbnVwLW5vdGlmIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJpc0F1dGhlbnRpY2F0ZWQiOnRydWUsImlzU3VwZXJBZG1pbiI6ZmFsc2UsInNldFBhc3N3b3JkT25seSI6bnVsbCwiaW50ZXJjb21Vc2VySGFzaCI6IjliYzk5MTY1NTdiOTlkZWU4MjlkMmQ3YmFlZDU3Y2RlN2Y0NDk0ZGM3ZTQwOGRkNDA5Y2NjYjI2YzJkNDU3MDIiLCJpYXQiOjE2NTU3OTE2Njd9;
+      AuthTokenSignature=weUkWVHqkhBI6-cz_FG1WM3xFkjO3V5S4PXfOQnr-To;
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Qtc2lnbnVwLW5vdGlmQGVtYWlsLmNvbSIsImJ1c2luZXNzSWQiOiJidXNpbmVzcy1UME16NXpaLXpDZHhDUklWc2syVWZuQm4iLCJzZXJ2aWNlQWNjb3VudCI6bnVsbCwiZmlyc3ROYW1lIjoidGVzdC1zaWdudXAtbm90aWYiLCJsYXN0TmFtZSI6InRlc3Qtc2lnbnVwLW5vdGlmIiwiaXNSZWdpc3RlcmVkIjp0cnVlLCJpc0F1dGhlbnRpY2F0ZWQiOnRydWUsImlzU3VwZXJBZG1pbiI6ZmFsc2UsInNldFBhc3N3b3JkT25seSI6bnVsbCwiaW50ZXJjb21Vc2VySGFzaCI6IjliYzk5MTY1NTdiOTlkZWU4MjlkMmQ3YmFlZDU3Y2RlN2Y0NDk0ZGM3ZTQwOGRkNDA5Y2NjYjI2YzJkNDU3MDIiLCJpYXQiOjE2NTU3OTE2Njd9
+  prefix: ""
+  disabled: false
+metaSortKey: -1658223713715
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_499c35644892419080c99716b9cdc35e
+type: Request
+parentId: fld_bd1d24a61ee54b568e30683d1481e6f9
+modified: 1658299879761
+created: 1658298891012
+url: https://mgmt.demo.anchor.sh/relationship/relationship-TC3LyVe-Sidx8FlHW9zSOZBM/service/service-TC39PzR-J3LsBY3cATUO316F/bill-command/bill-command-TC3Ruuv-3VCZeQENr1vqRRBD/approve
+name: Approve Deliverables
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_aed66e12aa874057860bdfb22534f4a1
+  - id: pair_0781ff14e6824f1bb0c2ad7bf1fb3d33
+    name: Cookie
+    value: "{{ _.buyerToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658235947272
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
