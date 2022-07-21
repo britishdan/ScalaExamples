@@ -1,0 +1,25 @@
+_id: req_326015524d764e61a008d50f5d7d7648
+type: Request
+parentId: fld_d6573fd5345f48da9af750fc8ff7b8e2
+modified: 1658400973423
+created: 1658400900529
+url: https://mgmt.demo.anchor.sh/payment-method/relationship/relationship-T2x2bZU-mUdveW0tuVigfb4d
+name: Get Payment Method
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a582c42bf59e450aa27c2b1caba3cdf5
+    name: Cookie
+    value: "{{ _.vendorToken }}"
+    description: ""
+authentication: {}
+metaSortKey: -1658223713665
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
